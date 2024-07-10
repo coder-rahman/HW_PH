@@ -1,3 +1,35 @@
-.top-header{
+nav{
     display: flex;
+    margin: 5px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    
+}
+nav ul li a button{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner{
+    background-image: url("img/Hero-bg.png");
+}
+.banner_content{
+    width:80%;
+    margin:0 auto;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.banner button{
+    padding: 5px;
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }
