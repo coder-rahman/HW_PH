@@ -22,16 +22,23 @@ nav ul li a button{
 .banner_content{
     width:80%;
     margin:0 auto;
+    z-index: 5;
     text-align: center;
     background-repeat: no-repeat;
 }
+.banner_content p{
+    color:rgb(96, 99,100);
+    width: 470px;
+    margin: 0 auto;
+}
 .banner button{
-    padding: 5px;
+    padding: 9px;
     background-color: black;
     color:white;
     border:1px solid black;
     border-radius: 5px;
     cursor: pointer;
+    margin:32px auto;
 }
 /* Header End Here */
 
@@ -43,8 +50,20 @@ nav ul li a button{
     border: none;
     border-radius: 14px;
 }
+.main-heading{
+    margin-top: 40px;
+}
 .container-main{
     margin: 48px 97px 80px 0px;
+}
+.container-main button a{
+    text-decoration: none;
+    font-weight:800;
+    padding: 12px 20px;
+    color:black;
+}
+.container-main button{
+    background-color: rgb(252, 252, 253);
 }
 .main .main-heading, .main-paragraph{
     text-align: center;
@@ -79,9 +98,19 @@ nav ul li a button{
 /* Video Start Here */
  .myVideo{
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 335px;
+    width:45%;
+    border:1px solid black;
+    border-radius: 9px;
+    margin:0 auto;
+ }
+ .video-content{
+    margin:5px;
+    border: none;
+    border-radius: 7px;
+
  }
  /* Video End Here */
 
@@ -106,7 +135,7 @@ nav ul li a button{
  }
 .target-item{
     display: flex;
-    gap: 10px;
+    gap: 14px;
     justify-content: space-between;
 }
 .target-item h3{
@@ -175,6 +204,7 @@ nav ul li a button{
     width:100px;
     border:none;
     border-radius: 9px;
+    cursor: pointer;
 }
 /* Top Footer End Here */
 
